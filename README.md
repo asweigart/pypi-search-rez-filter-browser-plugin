@@ -2,7 +2,7 @@
 
 A Firefox and Chrome browser plugin that hides seemingly unmaintained PyPI packages from search results.
 
-Searching for Python packages on [https://pypi.org](PyPI.org) can be frustrating as many packages aren't maintained. This browser plugin hides packages in the search result with a "(Hidden by PyPI Search Rez Filter browser plugin)" link. Clicking the link will show the original search result, so it's easy to undo this plugin's hiding feature.
+Searching for Python packages on [PyPI.org](https://pypi.org) can be frustrating as many packages aren't maintained. This browser plugin hides packages in the search result with a "(Hidden by PyPI Search Rez Filter browser plugin)" link. Clicking the link will show the original search result, so it's easy to undo this plugin's hiding feature.
 
 Packages are hidden if:
 
@@ -38,3 +38,6 @@ This browser plugin is not yet listed in the Chrome Extensions site. Here is how
 1. Click "Load unpacked"
 1. Navigate to the folder with the plugin files, and select that folder.
 
+## About the Filtered Packages
+
+The PyPI Search Rez Filter plugin makes no claims of quality or judgements about individual packages. There are mature, high-quality packages from reputable developers that may get filtered because of the metrics the plugin uses. Being filtered is not a guarantee of low-quality, nor is not being filtered an indicator of reliability. These are rough metrics for users of this optional browser plugin.

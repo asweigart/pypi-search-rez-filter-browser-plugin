@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "PyPI Search Rez Filter",
-  "version": "1.0.0",
+  "version": "2025.4.2",
   "description": "Hides seemingly unmaintained PyPI packages from search results.",
   "icons": {
     "48": "icon.png"

@@ -12,6 +12,8 @@ Packages are hidden if:
 
 Packages newer than 2025-02-28 are never hidden. (This will be updated as new versions of this browser plugin are released.)
 
+<img src="https://raw.githubusercontent.com/asweigart/pypi-search-rez-filter-browser-plugin/refs/heads/main/screenshot-rez-filter.png">
+
 If your PyPI package doesn't meet these requirements but you feel it should be on the allow list anyway, contact [al@inventwithpython.com](mailto:al@inventwithpython.com).
 
 This data was scrapped from PyPI and formed into a 3.5 MB allow list of 209,949 package names. This list will be updated every few months.

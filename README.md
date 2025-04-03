@@ -7,10 +7,9 @@ Searching for Python packages on [PyPI.org](https://pypi.org) can be frustrating
 Packages are hidden if:
 
 1. Their description is less than 200 characters.
-1. There are less than two releases.
-1. The time between the oldest and most recent release is less than 30 days.
+1. It never had a release 30 days or more after it's very first release.
 
-Packages newer than 2025-02-28 are never hidden. (This will be updated as new versions of this browser plugin are released.)
+Brand new packages (currently meaning released after 2025-02-28) are never hidden.
 
 <img src="https://raw.githubusercontent.com/asweigart/pypi-search-rez-filter-browser-plugin/refs/heads/main/screenshot-rez-filter.png">
 
@@ -40,4 +39,4 @@ This browser plugin is not yet listed in the Chrome Extensions site. Here is how
 
 ## About the Filtered Packages
 
-The PyPI Search Rez Filter plugin makes no claims of quality or judgements about individual packages. There are mature, high-quality packages from reputable developers that may get filtered because of the metrics the plugin uses. Being filtered is not a guarantee of low-quality, nor is not being filtered an indicator of reliability. These are rough metrics for users of this optional browser plugin.
+The PyPI Search Rez Filter plugin makes no claims of quality or judgements about individual packages. There are mature, high-quality packages from reputable developers that may get filtered because of the metrics the plugin uses. Being filtered is not a guarantee of low-quality, nor is not being filtered an indicator of reliability. These are rough metrics for users of this optional browser plugin. If you want your package to be added to the allow list in the next plugin release, either send me an email [al@inventwithpython.com](mailto:al@inventwithpython.com) or publish a new release of your package with a description greater than 200 characters.

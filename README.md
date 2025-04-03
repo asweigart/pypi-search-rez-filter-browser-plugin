@@ -6,7 +6,7 @@ Searching for Python packages on [PyPI.org](https://pypi.org) can be frustrating
 
 Packages are hidden if:
 
-1. Their description is less than 200 characters.
+1. Its description is less than 200 characters.
 1. It never had a release 30 days or more after it's very first release.
 
 Brand new packages (currently meaning released after 2025-02-28) are never hidden.
